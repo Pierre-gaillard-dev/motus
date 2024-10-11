@@ -1,0 +1,22 @@
+main {
+    width: fit-content;
+}
+
+#main_table td {
+    background: linear-gradient(#699bf6, #5178c0);
+    width: 50px;
+    height: 50px;
+}
+
+#main_table td.good {
+    background: red;
+}
+
+#main_table td.near {
+    background: yellow;
+}
+
+#submit_box {
+    display: flex;
+    flex-direction: column;
+}
